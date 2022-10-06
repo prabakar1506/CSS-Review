@@ -1,0 +1,91 @@
+*{
+	padding:0;
+	line-height:2rem;
+	margin:1rem;
+	box-sizing:border-box;
+}
+#hash{
+	   background-color:red;
+}
+.dot{
+	  background-color:yellow;
+}
+div span{
+	     background-color:red;
+}
+div >.red{
+	     background-color:yellow;
+}
+div+p{
+	   background-color:red;
+}
+.yellow~p{
+	   background-color:yellow;
+}
+.pesudo-element::first-line{
+	                         color:red;
+}
+.pesudo::first-letter{
+	                   font-size:xx-large;
+					   background-color:yellow;
+					   color:red;
+					   font-weight:600;
+}
+.before::before{
+	            content:url("D:/fabevy/practice/selectors-practice/emoji.gif");
+				
+			    
+}
+.after::after{
+	          content:url("D:/fabevy/practice/selectors-practice/emoji.gif");
+}
+.selection::selection{
+	                   background-color:yellow;
+					   color:red;
+}
+::marker{
+	          color:red;
+}
+a:active{
+	      background-color:yellow;
+}
+a:visited{
+	      color:red;
+}
+a:hover{
+	     background-color:blue;
+		 padding:1rem;
+		 color:red;
+}
+input:focus{
+	        color:red;
+			background-color:yellow;
+			border-color:blue;
+}
+input[type=text]:enabled {
+  background: #ffff00;
+}
+
+input[type=text]:disabled {
+  background: #dddddd;
+}
+a:link{
+	    color:black;
+}
+a[target] {
+  background-color: pink;
+}
+a[target=_blank] {
+  background-color: red;
+}
+[title~=flower] {
+  border: 5px solid yellow;
+}
+[class|="top"] {
+  background: yellow;
+}
+[class^="top"] {
+  background: yellow;
+}
+input[type=text]{
+	background-color:red;
