@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>display</title>
+		<style>
+		.none img{
+			display:none;
+		}
+		.hidden img{
+		 display:hidden;
+		}
+		.block i{
+		display:block;
+		background-color:red;
+		}
+		.inline li{
+		 display:inline;
+		}
+		.inline-block li{
+		 display:inline-block;
+		 width:20%;
+		}
+		.flex{
+			display:flex;
+			width:400px
+			height:300px;
+			border:1px solid #c3c3c3;
+		}
+		.flex .box
+		{
+		flex-grow: 2;
+		}
+		.flexs{
+			display:flex;
+			width:200px
+			height:300px;
+			border:1px solid #c3c3c3;
+		}
+		.flexs .box
+		{
+		flex-shrink:0px;
+		flex-basis: 0px;
+		}
+		.col{
+		 display:flex;
+		 flex-direction:row-reverse;
+		}
+		</style>
+	</head>
+	</body>
+		<div class="none">
+			<h1>None</h1>
+			<p>display none </p>
+			<img src="values-3.png">
+		<div><hr>
+		<div class="hidden">
+			<h1>Hidden</h1>
+			<img src="values-3.png">
+			<p>display Hidden </p>
+		<div><hr>
+		<div class="block">
+			<h1>Block</h1>
+			<p>display block </p>
+			<i>none</i>
+			<i>inline</i>
+			<i>block</i>
+			<i>inline-block</i>
+		<div><hr>
+		<div class="inline">
+			<h1>Inline</h1>
+			<p>display inline </p>
+			<ul>
+				<li>none</li>
+				<li>inline</li>
+				<li>block</li>
+				<li>inline-block</li>
+			</ul>
+		<div><hr>
+		<div class="inline-block">
+			<h1>Inline-Block</h1>
+			<p>display inline-block </p>
+			<ul>
+				<li>none</li>
+				<li>inline</li>
+				<li>block</li>
+				<li>inline-block</li>
+			</ul>
+		<div><hr>
+		<h1>flex</h1>
+		<div class="flex">
+			<div class="box"style="background-color:lightgreen;"><h2>box-1</h2></div>
+			<div class="box"style="background-color:lightblue;"><h2>box-2</h2></div>
+			<div class="box"style="background-color:red;"><h2>box-3</h2></div>
+			<div class="box"style="background-color:lightgreen;"><h2>box-4</h2></div>
+			<div class="box"style="background-color:lightblue;"><h2>box-5</h2></div>
+			<div class="box"style="background-color:red;"><h2>box-6</h2></div>
+		</div><hr>
+		<h1>basis & shrink</h1>
+		<div class="flexs">
+			<div class="box"style="background-color:lightgreen;"><h2>box-1</h2></div>
+			<div class="box"style="background-color:lightblue;"><h2>box-2</h2></div>
+			<div class="box"style="background-color:red;"><h2>box-3</h2></div>
+		</div><hr>
+		
+	
+		<h1>display flex</h1>
+		<div class="col">
+			<div class="box"style="background-color:lightgreen;"><h2>box-1</h2></div>
+			<div class="box"style="background-color:lightblue;"><h2>box-2</h2></div>
+			<div class="box"style="background-color:red;"><h2>box-3</h2></div>
+		</div>
+	</body>
+</html>

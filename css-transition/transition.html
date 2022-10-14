@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<style>
+		.div div{
+		 background:blue;
+		 color:white;
+		 width:200px;
+		 height:100px;
+		 transition-property:width;
+		 transition-duration: 3s;
+		 transition-delay:.5s;
+		 text-align:center;
+		 margin:10px 0px;
+		 }
+		 .div div:hover{
+		  width:300px;
+		  background:orange;
+		  color:black
+		 }
+		.box{
+		 background:blue;
+		 color:white;
+		 width:200px;
+		 height:100px;
+		 transition-property:height;
+		 transition-duration: 3s;
+		 transition-delay:.5s;
+		 text-align:center;
+		 margin:10px 0px;
+		 }
+		 .box:hover{
+		  height:300px;
+		  background:orange;
+		  color:black
+		 }
+		 .box1{
+		 background:blue;
+		 color:white;
+		 width:200px;
+		 height:100px;
+		 transition-property:width;
+		 transition-duration: 3s;
+		 transition-timing-function:ease;
+		 text-align:center;
+		 margin:10px 0px;
+		 }
+		 .box1:hover{
+		  width:500px;
+		  background:orange;
+		  color:black
+		  }
+		 
+		 .box2{
+		 background:blue;
+		 color:white;
+		 width:200px;
+		 height:100px;
+		 transition-property:width;
+		 transition-duration: 3s;
+		 transition-timing-function:linear;
+		 text-align:center;
+		 margin:10px 0px;
+		 }
+		 .box2:hover{
+		  width:500px;
+		  background:orange;
+		  color:black
+		  }
+		  
+		  .box3{
+		 background:blue;
+		 color:white;
+		 width:200px;
+		 height:100px;
+		 transition-property:width;
+		 transition-duration: 3s;
+		 transition-timing-function:ease-in;
+		 text-align:center;
+		 margin:10px 0px;
+		 }
+		 .box3:hover{
+		  width:500px;
+		  background:orange;
+		  color:black
+		  }
+	
+		.box4{
+		 color:white;
+		 width:200px;
+		 height:100px;
+		 transition-property:all;
+		 transition-duration: 3s;
+		 transition-timing-function:ease-out;
+		 text-align:center;
+		 margin:10px 0px;
+		 }
+		 .box4:hover{
+		  width:500px;
+		  color:black 
+		  }
+		  
+		 .box5{
+		 color:white;
+		 width:200px;
+		 height:100px;
+		 transition-property:all;
+		 transition-duration: 3s;
+		 transition-timing-function:ease-in-out;
+		 text-align:center;
+		 margin:10px 0px;
+		 }
+		 .box5:hover{
+		  width:500px;
+		  color:black
+		  }
+		  
+		  .box-x{
+			width:200px;
+			height:100px;
+			transition-duration: 3s;
+			margin:10px 0px;
+			border:5px solid #ff0000;
+		  }
+		  .box-x:hover{
+		   transform:rotatex(150deg);
+		  }
+		  
+		   .box-y{
+			width:200px;
+			height:100px;
+			transition-duration: 3s;
+			border:5px solid #ccc;
+		  }
+		  .box-y:hover{
+		   transform:rotatey(90deg);
+		   margin:10px 0px;
+		  }
+		  
+		  .box-z{
+			width:200px;
+			height:100px;
+			transition-duration: 3s;
+		  }
+		  .box-z:hover{
+		   transform:rotatez(150deg);
+		  }
+		  
+		  .boxa{
+			width:200px;
+			height:100px;
+		  }
+		  .boxa{
+		   transform:translate(30px,20px);
+		  }
+		  .boxb{
+			width:200px;
+			height:100px;
+		  }
+		  .boxb{
+		   transform:scaley(2);
+		  }
+		  .boxc{
+			width:200px;
+			height:100px;
+			margin:10px 0;
+		  }
+		  .boxc{
+		   transform:translatey(30px);
+		  }
+		</style>
+	</head>
+	<body>
+		<div class="div">
+		<div>box-1</div>
+		<div class="box">box-2</div>
+		<div>box-3</div><hr>
+		</div>
+		<h2>transition timing function</h2>
+		<div class="box1" style="background-color:lightblue;">box-1</div>
+		<div  class="box2" style="background-color:lightgreen;">box-2</div>
+		<div  class="box3" style="background-color:lightblue;">box-3</div>
+		<div  class="box4" style="background-color:red;">box-4</div>
+		<div class="box5" style="background-color:yellow;">box-5</div>
+		<div  class="box6" style="background-color:green;">box-6</div><hr>
+		<h2> 3d 2d transition<h2>
+		<p>transform:(translate(),translatex,translatey,rotate,scale,scalex,scaley,skew,skewx,skewy,matrix)</p>
+		<h1>2d transition</h1>
+		<div class="boxa" style="background-color:lightblue;">rotate x</div>
+		<div  class="boxb" style="background-color:lightgreen;">rotate y</div>
+		<div  class="boxc" style="background-color:lightblue;">rotate z</div>
+		<h1>3d transition</h1>
+		<div class="box-x" style="background-color:lightblue;">rotate x</div>
+		<div  class="box-y" style="background-color:lightgreen;">rotate y</div>
+		<div  class="box-z" style="background-color:lightblue;">rotate z</div>
+	</body>
+</html>

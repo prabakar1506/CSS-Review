@@ -1,13 +1,13 @@
 	.color{
 	    color:red;
 	}
-	.bgrgba{
+	.rgba{
 	    background-color:rgba(255, 99, 71, 0.5);
 	}
-	.bghex{
+	.hex{
 	    background-color:#ff6347;
 	}
-	.bghsl{
+	.hsl{
 	    background-color:hsl(240, 100%, 50%);
 	}
 	.ol{
@@ -48,7 +48,7 @@
 }
 .justify{
     border:1px solid red;
-	width:40%;
+	width:30%;
 	text-align:justify;
 }
 .ta {
@@ -108,18 +108,18 @@ img.sup{
   text-transform: capitalize;
   word-spacing: 10px;
 }
-.ti{
+.term1{
 	text-indent:50px;
 }
-.tspace,.lsp{
+.tspace,.term2{
 	letter-spacing:5px;
 }
-.tspace,.lsh{
+.tspace,.term3{
 	line-height:5;
 }
-.tspace,.ws{
+.tspace,.term4{
 	word-spacing:10px;
 }
-.w-s{
+.wordspace{
 	white-space:nowrap;
 }
