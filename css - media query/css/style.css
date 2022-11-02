@@ -1,0 +1,147 @@
+.container-8{
+	          padding:3rem orem;
+}
+.service-head{
+	           text-align:center;
+			   padding-bottom:2rem;
+			   font-size:2rem;
+    		   color:gray;
+}
+.service-item{
+              text-align:center;
+			  padding:1rem;
+			 			  
+}
+.service-item p{
+	              color:gray;
+				  font-size:1rem;
+			      line-height:1.3rem;
+                  
+}
+.service-item h3{
+	             padding:1rem 0rem;
+				 position:relative;
+				 font-weight:500;
+				 font-size:1.2rem;
+}
+.service-item h3:hover{
+	                    color:skyblue;
+}	
+.service-item h3::after{
+	                     content:"";
+						 position:absolute;
+						 width:10%;
+						 background-color:skyblue;
+						 display:flex;
+						 justify-content:center;
+						 margin-left:45%;
+						 bottom:5px;
+						 height:1px;
+}
+.service-item iconify-icon{
+	                       font-size:2.5rem;
+						   height:80px;
+						   width:80px;
+						   display:flex;
+						   justify-content:center;
+						   align-items:center;
+						   margin:auto;
+						   border:1px solid #fff;
+						   border-radius:50%;
+						   color:skyblue;
+						   box-shadow:0 0 15px gray;
+}
+.service-item iconify-icon:hover{
+	                              box-shadow:0 0 20px skyblue;
+}	
+@media(min-width:768px){
+	
+.container-8{
+	          padding:3rem orem;
+}
+.service-head{
+	           text-align:center;
+			   padding:2rem 0rem;
+			   font-size:2rem;
+    		   color:gray;
+}
+.service-flex{
+	           display:flex;
+			   padding:1rem;
+			   flex-wrap:wrap;
+}
+.service-item{
+              text-align:center;
+			  width:43%;
+			  padding:1.3rem;
+			 			  
+}
+.service-item p{
+	              color:gray;
+				  font-size:1rem;
+			      line-height:1.3rem;
+                  
+}
+.service-item h3{
+	             padding:1rem 0rem;
+				 position:relative;
+				 font-weight:500;
+				 font-size:1.3rem;
+}
+.service-item h3:hover{
+	                    color:skyblue;
+}	
+.service-item h3::after{
+	                     content:"";
+						 position:absolute;
+						 width:10%;
+						 background-color:skyblue;
+						 display:flex;
+						 justify-content:center;
+						 margin-left:45%;
+						 bottom:5px;
+						 height:1px;
+}
+.service-item iconify-icon{
+	                       font-size:2.5rem;
+						   height:80px;
+						   width:80px;
+						   display:flex;
+						   justify-content:center;
+						   align-items:center;
+						   margin:auto;
+						   border:1px solid #fff;
+						   border-radius:50%;
+						   color:skyblue;
+						   box-shadow:0 0 15px gray;
+}
+.service-item iconify-icon:hover{
+	                              box-shadow:0 0 20px skyblue;
+}		
+}
+@media(min-width:1024px){
+
+.container-8{
+	          width:95%;
+			  margin:auto;
+}	
+.service-item{
+              text-align:center;
+			  width:28%;
+			  padding:1.3rem;
+			 			  
+}
+.service-item p{
+	              color:gray;
+				  font-size:1.1rem;
+				  padding:1rem;
+			      line-height:1.3rem;
+                  
+}
+.service-item h3{
+	             padding:1rem 0rem;
+				 position:relative;
+				 font-weight:500;
+				 font-size:1.4rem;
+}	
+}

@@ -1,1 +1,121 @@
-
+/* transform: none; */
+/* transform: rotate(10deg); */
+/* transform: rotate(45deg); */
+/* transform: rotateX(45deg); */
+/* transform: rotateX(100deg); */
+/* transform: rotateY(45deg); */
+/* transform: rotateY(80deg); */
+/* transform: skew(20deg,20deg); */
+/* transform: skew(30deg,30deg); */
+/* transform: skewX(30deg); */
+/* transform: skewX(40deg); */
+/* transform: skewY(30deg); */
+/* transform: skewY(40deg); */
+/* transform: translate(20px,10px); */
+/* transform: translate(20px,20px); */
+/* transform: scale(2,2); */
+/* transform: scale(2,3); */
+/* transform: matrix(0.866,0.7,-0.8,0.866,0,0); */
+/* transform: matrix(0.586,0.8,-0.8,0.586,0,0); */
+/* transform: matrix(0.586,0.8,-0.8,0.586,40,30); */
+.transform{
+	         text-align:center;
+}
+.items{
+	   justify-content:center;
+	   padding:5rem;
+	   display:flex;
+	   align-items:center;
+}
+.red1{
+	 height:100px;
+	 width:300px;
+	 text-align:center;
+	 background-color:blue;
+	 transform: none;
+}
+.red{
+	 height:100px;
+	 width:300px;
+	  margin-top:10rem;
+	 text-align:center;
+	 background-color:red;
+	 /* transform: rotate(10deg); */
+}
+.red:hover{
+	        transform: rotate(60deg);
+}
+.red2{
+	 height:100px;
+	 width:300px;
+	  margin-top:10rem;
+	 text-align:center;
+	 background-color:yellow;
+	 transform: rotate(45deg);
+}
+.red3{
+	 height:100px;
+	 width:300px;
+	  margin-top:10rem;
+	 text-align:center;
+	 background-color:pink;
+	 transform: rotateX(45deg);
+}
+.red4{
+	 height:100px;
+	 width:300px;
+	  margin-top:10rem;
+	 text-align:center;
+	 background-color:pink;
+	 transform: rotateY(-40deg);
+}
+.red5{
+	 height:100px;
+	 width:300px;
+	  margin-top:10rem;
+	 text-align:center;
+	 background-color:deeppink;
+	 transform: skew(30deg,30deg);
+}
+.red6{
+	 height:100px;
+	 width:300px;
+	  margin-top:10rem;
+	 text-align:center;
+	 background-color:green;
+	 transform: skewX(30deg);
+}
+.red7{
+	 height:100px;
+	 width:300px;
+	  margin-top:10rem;
+	 text-align:center;
+	 background-color:skyblue;
+	  transform: skewY(30deg);
+}
+.red8{
+	 height:100px;
+	 width:300px;
+	  margin-top:10rem;
+	 text-align:center;
+	 background-color:pink;
+	 transform: translate(20px,10px); 
+}
+.red9{
+	 height:100px;
+	 width:300px;
+	  margin-top:10rem;
+	 text-align:center;
+	 background-color:pink;
+	 transform: scale(2,3);
+}
+.red10{
+	 height:100px;
+	 width:300px;
+	  margin-top:10rem;
+	 text-align:center;
+	 background-color:deeppink;
+	  transform: matrix(0.586,0.8,-0.8,0.586,90,60);
+}
+ 
+ 

@@ -17,11 +17,18 @@
 	margin:2% 0 0 2%;
 }
 .pointer{
-	margin:2% 2% 2% 2%;
+	margin:1%;
 	text-align:center;
-	width:20%;
-	height:10vh;
-	background-color:green;
+	border-radius:50%;
+	width:120px;
+	height:120px;
+	background-color:deeppink;
+}
+.pointer {
+	       display:flex;
+		   justify-content:center;
+		   align-items:center;
+		  
 }
 .pointer:hover{
 	background-color:grey;
